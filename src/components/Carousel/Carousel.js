@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Button from "react-bootstrap/Button";
 import Card from 'react-bootstrap/Card'
 import Carousel from "react-bootstrap/Carousel";
@@ -10,20 +10,8 @@ const CarouselComponent = (props) => {
             <Button variant="secondary" onClick={props.getCars}>Add New Posts</Button>
         )
     }
-    //
-    // const [index, setIndex] = useState(0);
-    // const [direction, setDirection] = useState(null);
-    //
-    // const handleSelect = (selectedIndex, e) => {
-    //     setIndex(selectedIndex);
-    //     setDirection(e.direction);
-    // };
-
-
 
     const { posts } = props
-
-
 
     const listItems = posts.map((p, index) =>
 

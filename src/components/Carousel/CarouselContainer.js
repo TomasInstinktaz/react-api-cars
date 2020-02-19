@@ -11,7 +11,6 @@ class CarouselContainer extends React.Component {
         return (
             <CarouselComponent {...this.props}
                            posts={this.props.posts}
-                // postai={this.props.postai}
             />
         )
     }
@@ -21,7 +20,6 @@ let mapStateToProps = (state) => {
 
     return ({
         posts: state.carsPage.posts,
-        // postai: state.carsPage.postai
     })
 }
 

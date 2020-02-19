@@ -3,15 +3,31 @@ import Table from 'react-bootstrap/Table'
 
 const Static = (props) => {
 
+
+
+    const simulateClick = React.useRef(null)
+
     if (props.posts == null) {
         return (
             <div>Props empty</div>
         )
     }
 
-    const { marke, modelis, metai, kaina } = props.posts
+    const { posts } = props
 
-        return (
+    const listItems = posts.map((p, index) =>
+        <tr key={index}>
+            <td>{p.marke}</td>
+            <td>{p.modelis}</td>
+            <td>{p.metai}</td>
+            <td>{p.kaina}</td>
+        </tr>
+    )
+
+
+    return (
+        <div>
+            <div ref={simulateClick}></div>
             <Table>
                 <thead>
                 <tr>
@@ -22,14 +38,10 @@ const Static = (props) => {
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>{marke}</td>
-                    <td>{modelis}</td>
-                    <td>{metai}</td>
-                    <td>{kaina}</td>
-                </tr>
+                {listItems}
                 </tbody>
             </Table>
+        </div>
         )
 
 

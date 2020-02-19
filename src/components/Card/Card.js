@@ -1,8 +1,6 @@
 import React from 'react'
 import Button from "react-bootstrap/Button";
 import Card from 'react-bootstrap/Card'
-import CardDeck from "react-bootstrap/CardDeck";
-import CardColumns from "react-bootstrap/CardColumns";
 
 const CardComponent = (props) => {
 
@@ -12,11 +10,6 @@ const CardComponent = (props) => {
         )
     }
 
-    // if (props.postai == null) {
-    //     return (
-    //         <div>no</div>
-    //     )
-    // }
     const { posts } = props
     const listItems = posts.map((p, index) =>
 

@@ -21,7 +21,6 @@ let mapStateToProps = (state) => {
 
     return ({
         posts: state.carsPage.posts,
-        // postai: state.carsPage.postai
     })
 }
 

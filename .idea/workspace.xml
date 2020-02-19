@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbbb6b8c-3491-41ba-b30a-bb40394adbc0" name="Default Changelist" comment="" />
+    <list default="true" id="cbbb6b8c-3491-41ba-b30a-bb40394adbc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/CardContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/CardContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/CarouselContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/CarouselContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dynamic/DynamicContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dynamic/DynamicContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Static/Static.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Static/Static.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Static/StaticContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Static/StaticContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cars-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cars-reducer.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XiObWvAQ6PUAp4CjywsIwsnPpK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -50,10 +66,22 @@
       <workItem from="1581893925997" duration="16907000" />
       <workItem from="1581944050265" duration="2697000" />
       <workItem from="1581954802914" duration="14993000" />
+      <workItem from="1582144629488" duration="9279000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -15,8 +15,9 @@ class DynamicContainer extends React.Component {
     }
 }
 
+
+
 let mapStateToProps = (state) => {
-    //console.log('mapStateToProps PROFILE')
     return ({
         posts: state.carsPage.posts,
     })

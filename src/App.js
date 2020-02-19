@@ -16,21 +16,7 @@ import CarouselContainer from "./components/Carousel/CarouselContainer";
 class App extends Component {
 
 
-  componentDidMount() {
-    // axios.get(`https://backend.daviva.lt/API/InformacijaTestui`)
-    //     .then(res => {
-    //       const cars = res.data;
-    //       this.setState({ cars });
-    //     })
-
-    // carsAPI()
-    // console.log(store.getState())
-  }
-
   render() {
-
-    // const {cars} = this.state
-
 
     return (
         <div className='app-wrapper'>
@@ -55,13 +41,8 @@ class App extends Component {
   }
 }
 
-// let AppContainer = compose(
-//     withRouter,
-//     connect({}, {initializeApp}))(App);
-
 const SuperApp = (props) => {
-  console.log('dfg')
-  console.log(store.getState())
+
   return <Router >
     <Provider store={store}>
       <App />
