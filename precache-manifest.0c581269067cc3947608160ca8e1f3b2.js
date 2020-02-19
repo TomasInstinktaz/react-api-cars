@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a805cffb3f8ad351f3335adbe68368d",
+    "revision": "08987bec40ae15d8ee8999d7af282be7",
     "url": "/react-api-cars/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-api-cars/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "570ec921b40b1c598c0b",
+    "revision": "ae28c65f4a88b65a0f6a",
     "url": "/react-api-cars/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-api-cars/static/js/2.f0cca932.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "570ec921b40b1c598c0b",
-    "url": "/react-api-cars/static/js/main.42c5a72f.chunk.js"
+    "revision": "ae28c65f4a88b65a0f6a",
+    "url": "/react-api-cars/static/js/main.71d800a2.chunk.js"
   },
   {
     "revision": "e634b481492042f33484",
